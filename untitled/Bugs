@@ -1,0 +1,7 @@
+Arquivo para bugs e melhorias:
+
+Bug: No fluxo de compra é possivel seguir para a pagina de preencher nome e sobrenome sem ter nenhum item no carrinho para comprar
+
+Bug: Na tela de overview caso seja clicado para remover um item da compra nesta tela, o item permanece visivel para compra quando clicar em "Back"
+
+Melhoria: caso não tenha sido preenchido nenhum campo na pagina de nome e sobrenome deve aparecer uma mensagem mais generica por exemplo: "Preencha todos os campos"
