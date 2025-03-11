@@ -21,8 +21,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class LoginTests {
 
     @Test
-    @DisplayName("Deve logar com sucesso")
-    public void testDeveLogarComSucesso() {
+    @DisplayName("Logar com sucesso")
+    public void testLogarComSucesso() {
         WebDriverManager.chromedriver().setup();
         WebDriver navegador = new ChromeDriver();
 
@@ -40,8 +40,8 @@ public class LoginTests {
     }
 
     @Test
-    @DisplayName("Deve exibir que o usuario esta bloqueado")
-    public void testDeveExibirQueOUsuarioEstaBloqueado() {
+    @DisplayName("Exibir que o usuario esta bloqueado")
+    public void testExibirQueOUsuarioEstaBloqueado() {
         WebDriverManager.chromedriver().setup();
         WebDriver navegador = new ChromeDriver();
 
@@ -59,8 +59,8 @@ public class LoginTests {
     }
 
     @Test
-    @DisplayName("Deve logar mas o usuario tem problema")
-    public void testDeveLogarMasOUsuarioTemProblema() {
+    @DisplayName("Logar com usuario com problema")
+    public void testLogarComOUsuarioComProblema() {
         WebDriverManager.chromedriver().setup();
         WebDriver navegador = new ChromeDriver();
 
@@ -87,8 +87,8 @@ public class LoginTests {
     }
 
     @Test
-    @DisplayName("Deve logar mas o usuario tem problema de desempenho")
-    public void testDeveLogarMasOUsuarioTemProblemaDeDesempenho() {
+    @DisplayName("Logar com usuario com problema de desempenho")
+    public void testLogarComOUsuarioComProblemaDeDesempenho() {
         WebDriverManager.chromedriver().setup();
         WebDriver navegador = new ChromeDriver();
 
